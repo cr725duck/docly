@@ -1,0 +1,109 @@
+/* ============ DOCly design tokens ============ */
+:root {
+  /* spacing scale */
+  --sp-1: 4px; --sp-2: 8px; --sp-3: 12px; --sp-4: 16px; --sp-5: 20px;
+  --sp-6: 24px; --sp-8: 32px; --sp-10: 40px; --sp-12: 48px; --sp-16: 64px; --sp-20: 80px;
+
+  /* brand accent */
+  --accent: #4f46e5;
+  --accent-hover: #4338ca;
+  --accent-soft: #eef2ff;
+  --accent-soft-hover: #e0e7ff;
+  --on-accent: #ffffff;
+
+  --success: #16a34a;
+  --success-soft: #ecfdf3;
+  --warning: #b45309;
+  --warning-soft: #fffbeb;
+  --error: #dc2626;
+  --error-soft: #fef2f2;
+
+  /* category accents (used sparingly, icon tint only) */
+  --cat-popular: #4f46e5;
+  --cat-convert: #0e7490;
+  --cat-edit: #b45309;
+  --cat-organize: #7c3aed;
+  --cat-compress: #15803d;
+  --cat-security: #be123c;
+  --cat-ocr: #a16207;
+  --cat-create: #1d4ed8;
+  --cat-images: #c2410c;
+  --cat-office: #0369a1;
+  --cat-compare: #4d7c0f;
+  --cat-ai: #6d28d9;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-full: 999px;
+
+  --font: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --shadow-sm: 0 1px 2px rgb(16 24 40 / 0.05);
+  --shadow-md: 0 4px 12px -2px rgb(16 24 40 / 0.08), 0 2px 4px -2px rgb(16 24 40 / 0.04);
+  --shadow-lg: 0 12px 32px -8px rgb(16 24 40 / 0.14), 0 4px 8px -4px rgb(16 24 40 / 0.06);
+
+  --header-h: 68px;
+  --transition: 160ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* light mode surfaces */
+  --bg: #fafafa;
+  --surface: #ffffff;
+  --surface-raised: #ffffff;
+  --surface-sunken: #f4f4f5;
+  --text: #18181b;
+  --text-secondary: #52525b;
+  --text-tertiary: #8a8a93;
+  --border: #e7e7ea;
+  --border-strong: #d4d4d8;
+  --footer-bg: #17171c;
+  --footer-text: #d4d4d8;
+  --footer-text-muted: #8f8f99;
+  --overlay: rgb(24 24 27 / 0.45);
+}
+
+[data-theme="dark"] {
+  --accent: #818cf8;
+  --accent-hover: #a5b4fc;
+  --accent-soft: #26264a;
+  --accent-soft-hover: #30305c;
+  --on-accent: #101022;
+
+  --success: #4ade80;
+  --success-soft: #12291c;
+  --warning: #fbbf24;
+  --warning-soft: #2c2410;
+  --error: #f87171;
+  --error-soft: #331a1a;
+
+  --bg: #121216;
+  --surface: #1b1b21;
+  --surface-raised: #232329;
+  --surface-sunken: #17171c;
+  --text: #f4f4f5;
+  --text-secondary: #a1a1aa;
+  --text-tertiary: #71717a;
+  --border: #2c2c34;
+  --border-strong: #3f3f46;
+  --footer-bg: #0e0e12;
+  --footer-text: #c6c6cf;
+  --footer-text-muted: #77777f;
+  --overlay: rgb(0 0 0 / 0.6);
+
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.4);
+  --shadow-md: 0 4px 12px -2px rgb(0 0 0 / 0.5);
+  --shadow-lg: 0 12px 32px -8px rgb(0 0 0 / 0.6);
+
+  --cat-popular: #a5b4fc;
+  --cat-convert: #67e8f9;
+  --cat-edit: #fcd34d;
+  --cat-organize: #c4b5fd;
+  --cat-compress: #86efac;
+  --cat-security: #fda4af;
+  --cat-ocr: #fde68a;
+  --cat-create: #93c5fd;
+  --cat-images: #fdba74;
+  --cat-office: #7dd3fc;
+  --cat-compare: #bef264;
+  --cat-ai: #d8b4fe;
+}
